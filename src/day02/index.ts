@@ -3,7 +3,7 @@ import run from "aocrunner";
 const parseInput = (rawInput: string) => rawInput.split("\n").map(x => x.split(' '));
 
 const part1 = (rawInput: string) => {
-  const input: [[string]] = parseInput(rawInput);
+  const input: string[][] = parseInput(rawInput);
   
   const init = {'f': 0, 'd': 0};
 
@@ -22,7 +22,7 @@ const part1 = (rawInput: string) => {
 }
 
 const part2 = (rawInput: string) => {
-  const input: [[string]] = parseInput(rawInput);
+  const input: string[][] = parseInput(rawInput);
   
   const init = {'f': 0, 'd': 0, 'a': 0};
 

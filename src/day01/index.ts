@@ -6,9 +6,9 @@ const parseInput = (rawInput: string) =>
 const part1 = (rawInput: string) => {
   const input = parseInput(rawInput);
 
-  var deeper: int = 0;
+  var deeper = 0;
 
-  for (var i: int = 0; i < input.length; i++) {
+  for (var i = 0; i < input.length; i++) {
     if (input[i - 1] < input[i]) {
       deeper += 1;
     }
@@ -19,9 +19,9 @@ const part1 = (rawInput: string) => {
 
 const part2 = (rawInput: string) => {
   const input = parseInput(rawInput);
-  var deeper: int = 0;
+  var deeper = 0;
 
-  for (var i: int = 0; i < input.length - 3; i++) {
+  for (var i = 0; i < input.length - 3; i++) {
     const slide1 = input[i] + input[i + 1] + input[i + 2];
     const slide2 = input[i + 1] + input[i + 2] + input[i + 3];
 

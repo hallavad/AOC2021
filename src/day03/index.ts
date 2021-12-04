@@ -3,7 +3,7 @@ import run from "aocrunner";
 const parseInput = (rawInput: string) => rawInput.split("\n");
 
 const part1 = (rawInput: string) => {
-  const input: string = parseInput(rawInput);
+  const input: string[] = parseInput(rawInput);
 
   let res = [0,0,0,0,0,0,0,0,0,0,0,0]  
   
