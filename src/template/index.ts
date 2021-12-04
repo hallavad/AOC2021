@@ -1,15 +1,17 @@
 import run from "aocrunner";
 
+type Input = string;
+
 const parseInput = (rawInput: string) => rawInput;
 
 const part1 = (rawInput: string) => {
-  const input = parseInput(rawInput);
+  const input: Input = parseInput(rawInput);
 
   return;
 };
 
 const part2 = (rawInput: string) => {
-  const input = parseInput(rawInput);
+  const input: Input = parseInput(rawInput);
 
   return;
 };
@@ -17,13 +19,13 @@ const part2 = (rawInput: string) => {
 run({
   part1: {
     tests: [
-      // { input: ``, expected: "" },
+      { input: ``, expected: "" },
     ],
     solution: part1,
   },
   part2: {
     tests: [
-      // { input: ``, expected: "" },
+      { input: ``, expected: "" },
     ],
     solution: part2,
   },
